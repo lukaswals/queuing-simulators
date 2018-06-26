@@ -26,8 +26,7 @@ static int strm=1;          /* index of current stream */
 *       ranf()
 ********************************************************************************
 * Function to generate a random double type number. It's implementation depends
-* on the CPU architecture
-* Extracted from course(EEE6462) material  
+* on the CPU architecture 
 *******************************************************************************/
 #if CPU==8086
 /*
